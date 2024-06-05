@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>成真咖啡招聘網站</title>
+	<style>
+		div{background-image:url("咖啡背景圖.jpg");background-repeat:no-repeat;background-size: cover;height: 600px;}
+		#content{font-family: cursive;}
+		
+	</style>
+<body>
+	<div id="content">
+	   <h1>成真咖啡徵的需要你</h1>
+	<p>我們是一家致力於研發咖啡的咖啡廳，店內主要以咖啡豆的烘焙為主，如果你也想跟我們一起加入這個咖啡的行列，歡迎填寫這份履歷，我們會派專人與你聯絡!期待你的加入!
+    <form>
+    	    <br>請輸入你的名字:<input type="text"id="name"><br>
+    	     請輸入生日:<input type="text"id="生日"><br>
+    	     請輸入你的學歷:<input type="text"id="學歷"><br>
+	        請輸入你的經歷:<input type="text"id="經歷"><br>
+	        請輸入你獲得的獎項:<input type="text"id="獎項"><br>
+	        請輸入你的聯絡方式:<input type="text"id="聯絡方式"><br>
+	        為什麼會想加入我們呢:<input type="text"id="原因">
+	</div>
+	</form>
+	     <button type="button"onclick="myFunc()">Send out!</button>
+	
+	         <script>
+	         	function myFunc(){alert("請確認您所輸入的資料"+"\n姓名:"+document.getElementById("name").value+"\n生日:"+document.getElementById("生日").value+"\n學歷:"+document.getElementById("學歷").value+"\n經歷:"+document.getElementById("經歷").value+"\n獲得獎項:"+document.getElementById("獎項").value+"\n聯絡方式:"+document.getElementById("聯絡方式").value+"\n為什麼會想加入我們呢:"+document.getElementById("聯絡方式").value)};
+	         </script>
+
+</head>
+</body>
+</html>
